@@ -38,7 +38,7 @@ Section:NewButton("da hood script", "fly around lol", function()
 end)
 
 local Section = Tab:NewSection("the one piece is REAL")
-Section:NewButton("one piece script", "can we get higher", function()
+Section:NewButton("A one piece game script", "can we get higher", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/32"))()
 end)
 
