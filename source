@@ -1,3 +1,8 @@
+local msg = Instance.new("Message",workspace)
+msg.Text = "Created by catinhat#0001 thanks for using my script love you!"
+wait(5)
+msg:Destroy()
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("jomong hubඞ", "Ocean")
 local Tab = Window:NewTab("info about the scripts")
@@ -6,6 +11,10 @@ local Section = Tab:NewSection("not our scripts we just put alot of scripts i ho
 
 local Tab = Window:NewTab("all games script")
 
+local Section = Tab:NewSection("Anime Artifacts Simulator 2")
+Section:NewButton("aas2", "naruto", function()
+    
+end)
 local Section = Tab:NewSection("xeno online 2")
 Section:NewButton("xeno online 2", "give me ur bp", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/xeno%20online.lua"))()
